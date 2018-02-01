@@ -25,6 +25,12 @@ public class Fraccion {
         return f;
 
     }
+    public Fraccion Multiplicar(Fraccion x){
+        int nuevo1=this.numerador*x.numerador;
+        int nuevo2=this.denominador*x.denominador;
+        Fraccion f= new Fraccion(nuevo1,nuevo2);
+        return f;
+    }
     public void mostrar(){
         System.out.print(numerador+"/"+denominador);
     }

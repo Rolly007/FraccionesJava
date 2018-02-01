@@ -7,10 +7,8 @@ public class Main {
         Fraccion b = new Fraccion(3,4);
 
         //Fraccion resultado=a.Sumar(b);
-        Fraccion resultado=a.Restar(b);
+        //Fraccion resultado=a.Restar(b);
+        Fraccion resultado=a.Multiplicar(b);
         resultado.mostrar();
-
-
     }
-
 }
